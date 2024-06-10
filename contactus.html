@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>contact us</title>
+    </head>
+    <style>/*  Smart phone      */
+                  
+        @media screen and (min-width:320px )  {
+
+               body {
+                    background-color: aqua;
+               }
+        }
+/*  Tablet,ipad      */    
+        
+          @media Screen and (min-width:768px) and (max-width:1024px){
+              body {
+                    background-color: rgb(177, 48, 48);
+              }
+          }
+     
+        /* Desktops and Laptops asfsdf     */    
+        
+        @media Screen and (min-width:1224px) {
+              body {
+                    background-color: rgb(48, 151, 8);
+              }
+          }
+
+          /* Large Screens---------  */
+          @media Screen and (min-width:1824px) {
+              body {
+                    background-color: rgb(101, 51, 208);
+              }
+          }
+
+        body{
+            background-color: aqua;
+            background-image: url(cheg2.jpg);
+            background-size:cover ;
+        }
+        nav{
+                
+                background-color:blue;
+                color: white;
+                padding:10px
+            }
+            nav ul{
+                list-style-type: none;
+                margin:0;
+                padding: 0;
+            }
+            nav ul li{
+                display:inline;
+                margin-right: 20px;
+
+            }
+            nav ul li a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            nav ul li a:hover{
+                text-decoration: underline;
+            }
+h1{text-align: center;}
+h2{
+    text-align: center;
+}h1{text-shadow: 5px 5px 10px yellow;}
+h3{text-align: center;}
+        
+    </style>
+    <body> <form action="register.html"><nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+         <li><a href="About.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+            <li><a href="contactus.html">Contactus</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul><h3><audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+                 
+                  your browser not support this audio tag
+            </audio></h3></nav>
+        </nav>
+       <h1>contact us</h1><br>
+        <h2>Full name:<input type="text" name="uname"autofocus><br><br>
+            <form action="">
+                Mobile no:
+                <input type="tel" name="number"id="per1"pattern="[0-9]{10}"title="digit"><br><br>
+                </form>
+        <form action="#">
+            Email:
+            <input list="email"name="myemails"><br><br>
+            <datalist id="email">
+                <option value="shan@gmail.com"></option>
+                <option value="santhi@gmail.com"></option>
+            </datalist>
+         </form>
+        Message Subject:<textarea name="message" ><textarea.....></textarea><br><br>
+        Message:<textarea name="message"  ><textarea.....></textarea><br><br>
+        <input type="Submit">
+        </form>
+        </h2>
+    </body>
+    </html>

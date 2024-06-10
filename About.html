@@ -1,0 +1,136 @@
+<html>
+    <head><title> About us</title>
+     <style>
+        body{
+            top:100%;left:100%;
+            transform:translate(0%,0%);
+            background:rgba(0,0,0,0.4);
+        }
+        #videobg{
+            position:fixed;
+            z-index:-1;
+        }
+        @media(min-aspect-ratio:16/9){
+            #videobg{width:100%;
+            height:auto;}
+        }
+        @media(max-aspect-ratio:16/9){
+            #videobg{
+            width:auto;
+            height:100%
+        }}
+        @media(max-width:767px){#videobg{
+            display: none;
+        }}
+        /*  Smart phone      */
+                  
+        @media screen and (min-width:320px )  {
+body {
+     background-color:wheat;
+}
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgb(177, 48, 48);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color: rgb(48, 151, 8);
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+}
+        body{
+            background-color:black;
+            color: crimson;
+            background-image: url(shan1.jpg);
+            background-size:cover ;
+        }
+        nav{
+                
+                background-color:blue;
+                color:red;
+                padding:10px
+            }
+            nav ul{
+                list-style-type: none;
+                margin:0;
+                padding: 0;
+            }
+            nav ul li{
+                display:inline;
+                margin-right: 20px;
+
+            }
+            nav ul li a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            nav ul li a:hover{
+                text-decoration: underline;
+            }
+h1{text-align: center;}
+h3{
+    text-align: center;
+}h1{text-shadow: 5px 5px 10px yellow;}p1{text-shadow: 5px 5px 10px black;}div{
+                border:  5px solid rgb(143,25,12);
+                background-color: rgba(89, 1, 116, 0.671);
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom:  30px;
+                padding-left:  50px;
+              }
+              .example{
+            background-color:white;
+            padding: 20px;
+           }
+           @media screen and (min-width: 300px) {
+                 .example {
+                    font-size:  50px;
+                 }
+            
+           }
+           @media screen and (min-width: 300px) {
+                 .example {
+                    font-size: 20px;
+                 }
+            
+           }
+    </style>
+    </head>
+    <body>
+        <video id="videobg"poster="shan1.jpg"autoplay muted loop>
+            <source src="video.mp4">
+        </video><nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+         <li><a href="About.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+            <li><a href="contactus.html">Contactus</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+        </nav>
+        <h1>About us</h1>
+        <p1>CHEGG ACCOUNT<br>
+<div class="example">
+    Chegg was founded in 2005 by Aayush Phumbhra and Osman Rashid, who were both students at Iowa State University at the time. The idea for Chegg came about when Aayush Phumbhra, who was struggling with a particularly difficult economics textbook, realized that there was a need for a platform where students could rent textbooks rather than buy them at full price.
+
+    <br>The name "Chegg" itself is a portmanteau of "chicken" and "egg," symbolizing the age-old question of which came first. In the case of Chegg, the question was whether the chicken (students) or the egg (textbooks) came first, and Chegg aimed to provide a solution to the high cost of textbooks that students faced.
+    
+    <br>Chegg started out by allowing students to rent textbooks online, providing a cost-effective alternative to buying expensive textbooks that students often only needed for a semester. Over time, Chegg expanded its services to include online tutoring, homework help, and study resources, becoming a one-stop shop for students looking for academic support.
+    
+    </div>
+        </p1>
+    </body>
+    </html>
